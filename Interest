@@ -1,0 +1,24 @@
+//program written to display the interest
+
+#include <stdio.h>
+
+//Compiler version gcc  6.3.0
+
+int main()
+{
+ /*interest*/ 
+  float p,r,t,interest;
+  
+  printf("P:\n",p);
+  scanf("%f" ,&p);
+  printf("r:\n",r);
+  scanf("%f",&r);
+  printf("t:\n",t);
+  scanf("%f",&t);
+  
+  interest=p*r*t/100;
+  
+  printf("interest: %f\n",interest);
+  
+  return 0;
+}
